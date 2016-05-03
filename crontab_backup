@@ -1,0 +1,51 @@
+11. Utilizar las herramientas .pgpass/cron para construir backups automatizados
+
+Primero se debe instalar crontab 
+
+sophia@ninoska:~$ sudo apt-get install crontab 
+[sudo] password for sophia: 
+Leyendo lista de paquetes... Hecho 
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho 
+crontab ya está en su versión más reciente. 
+0 actualizados, 0 se instalarán, 0 para eliminar y 584 no actualizados. 
+sophia@ninoska:~$ 
+
+Luego en el archivo /etc/crontab agregar la siguiente linea
+
+min horas 	usuario del servidor	el script a correr en este caso el que hicimos en el punto anterior
+
+13 22   * * *   sofia        /home/sofia/Escritorio/scriptbackups.sh
+
+
+Para que no solicite contraseña se utiliza .pgpass que es un archivo que se crea en la carpeta del usuario que incluye los siguientes datos
+
+hostname:port:database:username:password
+
+localhost:5432:musicdb:admin_user:superman22
+
+CONSOLA
+
+sophia@ninoska:~$  cd /etc/
+sophia@ninoska:/etc$ sudo nano crontab 
+[sudo] password for sophia: 
+
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/home/sofia/$
+
+# m h dom mon dow user  command
+17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --repo$
+47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --repo$
+52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --repo$
+13 22   * * *   sofia  /home/sofia/Escritorio/scriptbackups.sh
+#
+
+
+

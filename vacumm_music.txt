@@ -1,0 +1,415 @@
+INFO:  vacuuming "pg_catalog.pg_statistic"
+INFO:  "pg_statistic": found 29 removable, 418 nonremovable row versions in 20 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.10 sec.
+INFO:  vacuuming "pg_catalog.pg_type"
+INFO:  "pg_type": found 7 removable, 379 nonremovable row versions in 9 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_type"
+INFO:  "pg_type": scanned 9 of 9 pages, containing 377 live rows and 2 dead rows; 377 rows in sample, 377 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_authid"
+INFO:  "pg_authid": found 9 removable, 5 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_authid"
+INFO:  "pg_authid": scanned 1 of 1 pages, containing 5 live rows and 0 dead rows; 5 rows in sample, 5 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_attribute"
+INFO:  "pg_attribute": found 48 removable, 2664 nonremovable row versions in 51 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_attribute"
+INFO:  "pg_attribute": scanned 49 of 49 pages, containing 2637 live rows and 27 dead rows; 2637 rows in sample, 2637 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_proc"
+INFO:  "pg_proc": found 0 removable, 2529 nonremovable row versions in 63 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.01u sec elapsed 0.08 sec.
+INFO:  analyzing "pg_catalog.pg_proc"
+INFO:  "pg_proc": scanned 63 of 63 pages, containing 2529 live rows and 0 dead rows; 2529 rows in sample, 2529 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_class"
+INFO:  "pg_class": found 12 removable, 337 nonremovable row versions in 9 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_class"
+INFO:  "pg_class": scanned 9 of 9 pages, containing 336 live rows and 3 dead rows; 336 rows in sample, 336 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_user_mapping"
+INFO:  "pg_user_mapping": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_user_mapping"
+INFO:  "pg_user_mapping": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_constraint"
+INFO:  "pg_constraint": found 0 removable, 24 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_constraint"
+INFO:  "pg_constraint": scanned 1 of 1 pages, containing 24 live rows and 0 dead rows; 24 rows in sample, 24 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_inherits"
+INFO:  "pg_inherits": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.02 sec.
+INFO:  analyzing "pg_catalog.pg_inherits"
+INFO:  "pg_inherits": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_index"
+INFO:  "pg_index": found 3 removable, 127 nonremovable row versions in 3 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_index"
+INFO:  "pg_index": scanned 3 of 3 pages, containing 127 live rows and 0 dead rows; 127 rows in sample, 127 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_operator"
+INFO:  "pg_operator": found 0 removable, 734 nonremovable row versions in 14 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.06 sec.
+INFO:  analyzing "pg_catalog.pg_operator"
+INFO:  "pg_operator": scanned 14 of 14 pages, containing 734 live rows and 0 dead rows; 734 rows in sample, 734 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_opfamily"
+INFO:  "pg_opfamily": found 0 removable, 77 nonremovable row versions in 2 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_opfamily"
+INFO:  "pg_opfamily": scanned 2 of 2 pages, containing 77 live rows and 0 dead rows; 77 rows in sample, 77 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_opclass"
+INFO:  "pg_opclass": found 0 removable, 120 nonremovable row versions in 2 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_opclass"
+INFO:  "pg_opclass": scanned 2 of 2 pages, containing 120 live rows and 0 dead rows; 120 rows in sample, 120 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_am"
+INFO:  "pg_am": found 0 removable, 5 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_am"
+INFO:  "pg_am": scanned 1 of 1 pages, containing 5 live rows and 0 dead rows; 5 rows in sample, 5 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_amop"
+INFO:  "pg_amop": found 0 removable, 403 nonremovable row versions in 4 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_amop"
+INFO:  "pg_amop": scanned 4 of 4 pages, containing 403 live rows and 0 dead rows; 403 rows in sample, 403 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_amproc"
+INFO:  "pg_amproc": found 0 removable, 291 nonremovable row versions in 3 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_amproc"
+INFO:  "pg_amproc": scanned 3 of 3 pages, containing 291 live rows and 0 dead rows; 291 rows in sample, 291 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_language"
+INFO:  "pg_language": found 0 removable, 4 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_language"
+INFO:  "pg_language": scanned 1 of 1 pages, containing 4 live rows and 0 dead rows; 4 rows in sample, 4 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_largeobject_metadata"
+INFO:  "pg_largeobject_metadata": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_largeobject_metadata"
+INFO:  "pg_largeobject_metadata": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_database"
+INFO:  "pg_database": found 5 removable, 5 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_database"
+INFO:  "pg_database": scanned 1 of 1 pages, containing 5 live rows and 0 dead rows; 5 rows in sample, 5 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_rewrite"
+INFO:  "pg_rewrite": found 0 removable, 111 nonremovable row versions in 12 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.13 sec.
+INFO:  analyzing "pg_catalog.pg_rewrite"
+INFO:  "pg_rewrite": scanned 12 of 12 pages, containing 111 live rows and 0 dead rows; 111 rows in sample, 111 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_trigger"
+INFO:  "pg_trigger": found 0 removable, 44 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_trigger"
+INFO:  "pg_trigger": scanned 1 of 1 pages, containing 44 live rows and 0 dead rows; 44 rows in sample, 44 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_event_trigger"
+INFO:  "pg_event_trigger": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.02 sec.
+INFO:  analyzing "pg_catalog.pg_event_trigger"
+INFO:  "pg_event_trigger": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_description"
+INFO:  "pg_description": found 1 removable, 3497 nonremovable row versions in 31 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_description"
+INFO:  "pg_description": scanned 31 of 31 pages, containing 3497 live rows and 0 dead rows; 3497 rows in sample, 3497 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_cast"
+INFO:  "pg_cast": found 0 removable, 196 nonremovable row versions in 2 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_cast"
+INFO:  "pg_cast": scanned 2 of 2 pages, containing 196 live rows and 0 dead rows; 196 rows in sample, 196 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_enum"
+INFO:  "pg_enum": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_enum"
+INFO:  "pg_enum": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_namespace"
+INFO:  "pg_namespace": found 4 removable, 6 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_namespace"
+INFO:  "pg_namespace": scanned 1 of 1 pages, containing 6 live rows and 0 dead rows; 6 rows in sample, 6 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_conversion"
+INFO:  "pg_conversion": found 0 removable, 132 nonremovable row versions in 3 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_conversion"
+INFO:  "pg_conversion": scanned 3 of 3 pages, containing 132 live rows and 0 dead rows; 132 rows in sample, 132 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_depend"
+INFO:  "pg_depend": found 78 removable, 6524 nonremovable row versions in 49 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_depend"
+INFO:  "pg_depend": scanned 48 of 48 pages, containing 6522 live rows and 2 dead rows; 6522 rows in sample, 6522 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_db_role_setting"
+INFO:  "pg_db_role_setting": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.01 sec.
+INFO:  analyzing "pg_catalog.pg_db_role_setting"
+INFO:  "pg_db_role_setting": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_tablespace"
+INFO:  "pg_tablespace": found 0 removable, 2 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_tablespace"
+INFO:  "pg_tablespace": scanned 1 of 1 pages, containing 2 live rows and 0 dead rows; 2 rows in sample, 2 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_pltemplate"
+INFO:  "pg_pltemplate": found 0 removable, 8 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "pg_catalog.pg_pltemplate"
+INFO:  "pg_pltemplate": scanned 1 of 1 pages, containing 8 live rows and 0 dead rows; 8 rows in sample, 8 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_auth_members"
+INFO:  "pg_auth_members": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.02 sec.
+INFO:  analyzing "pg_catalog.pg_auth_members"
+INFO:  "pg_auth_members": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_shdepend"
+INFO:  "pg_shdepend": found 0 removable, 84 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_shdepend"
+INFO:  "pg_shdepend": scanned 1 of 1 pages, containing 84 live rows and 0 dead rows; 84 rows in sample, 84 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_shdescription"
+INFO:  "pg_shdescription": found 0 removable, 3 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_shdescription"
+INFO:  "pg_shdescription": scanned 1 of 1 pages, containing 3 live rows and 0 dead rows; 3 rows in sample, 3 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_ts_config"
+INFO:  "pg_ts_config": found 0 removable, 16 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_ts_config"
+INFO:  "pg_ts_config": scanned 1 of 1 pages, containing 16 live rows and 0 dead rows; 16 rows in sample, 16 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_ts_config_map"
+INFO:  "pg_ts_config_map": found 0 removable, 304 nonremovable row versions in 2 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_ts_config_map"
+INFO:  "pg_ts_config_map": scanned 2 of 2 pages, containing 304 live rows and 0 dead rows; 304 rows in sample, 304 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_ts_dict"
+INFO:  "pg_ts_dict": found 0 removable, 16 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_ts_dict"
+INFO:  "pg_ts_dict": scanned 1 of 1 pages, containing 16 live rows and 0 dead rows; 16 rows in sample, 16 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_ts_parser"
+INFO:  "pg_ts_parser": found 0 removable, 1 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_ts_parser"
+INFO:  "pg_ts_parser": scanned 1 of 1 pages, containing 1 live rows and 0 dead rows; 1 rows in sample, 1 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_ts_template"
+INFO:  "pg_ts_template": found 0 removable, 5 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_ts_template"
+INFO:  "pg_ts_template": scanned 1 of 1 pages, containing 5 live rows and 0 dead rows; 5 rows in sample, 5 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_extension"
+INFO:  "pg_extension": found 0 removable, 1 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_extension"
+INFO:  "pg_extension": scanned 1 of 1 pages, containing 1 live rows and 0 dead rows; 1 rows in sample, 1 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_foreign_data_wrapper"
+INFO:  "pg_foreign_data_wrapper": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_foreign_data_wrapper"
+INFO:  "pg_foreign_data_wrapper": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_foreign_server"
+INFO:  "pg_foreign_server": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_foreign_server"
+INFO:  "pg_foreign_server": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_foreign_table"
+INFO:  "pg_foreign_table": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_foreign_table"
+INFO:  "pg_foreign_table": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_default_acl"
+INFO:  "pg_default_acl": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.02 sec.
+INFO:  analyzing "pg_catalog.pg_default_acl"
+INFO:  "pg_default_acl": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_seclabel"
+INFO:  "pg_seclabel": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.00 sec.
+INFO:  analyzing "pg_catalog.pg_seclabel"
+INFO:  "pg_seclabel": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_shseclabel"
+INFO:  "pg_shseclabel": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_shseclabel"
+INFO:  "pg_shseclabel": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_range"
+INFO:  "pg_range": found 0 removable, 6 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.06 sec.
+INFO:  analyzing "pg_catalog.pg_range"
+INFO:  "pg_range": scanned 1 of 1 pages, containing 6 live rows and 0 dead rows; 6 rows in sample, 6 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_largeobject"
+INFO:  "pg_largeobject": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_largeobject"
+INFO:  "pg_largeobject": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "information_schema.sql_implementation_info"
+INFO:  "sql_implementation_info": found 0 removable, 12 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "information_schema.sql_implementation_info"
+INFO:  "sql_implementation_info": scanned 1 of 1 pages, containing 12 live rows and 0 dead rows; 12 rows in sample, 12 estimated total rows
+INFO:  vacuuming "information_schema.sql_languages"
+INFO:  "sql_languages": found 0 removable, 4 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "information_schema.sql_languages"
+INFO:  "sql_languages": scanned 1 of 1 pages, containing 4 live rows and 0 dead rows; 4 rows in sample, 4 estimated total rows
+INFO:  vacuuming "information_schema.sql_packages"
+INFO:  "sql_packages": found 0 removable, 10 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "information_schema.sql_packages"
+INFO:  "sql_packages": scanned 1 of 1 pages, containing 10 live rows and 0 dead rows; 10 rows in sample, 10 estimated total rows
+INFO:  vacuuming "information_schema.sql_sizing"
+INFO:  "sql_sizing": found 0 removable, 23 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "information_schema.sql_sizing"
+INFO:  "sql_sizing": scanned 1 of 1 pages, containing 23 live rows and 0 dead rows; 23 rows in sample, 23 estimated total rows
+INFO:  vacuuming "information_schema.sql_sizing_profiles"
+INFO:  "sql_sizing_profiles": found 0 removable, 0 nonremovable row versions in 0 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.00 sec.
+INFO:  analyzing "information_schema.sql_sizing_profiles"
+INFO:  "sql_sizing_profiles": scanned 0 of 0 pages, containing 0 live rows and 0 dead rows; 0 rows in sample, 0 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_attrdef"
+INFO:  "pg_attrdef": found 0 removable, 10 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_attrdef"
+INFO:  "pg_attrdef": scanned 1 of 1 pages, containing 10 live rows and 0 dead rows; 10 rows in sample, 10 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_aggregate"
+INFO:  "pg_aggregate": found 0 removable, 121 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "pg_catalog.pg_aggregate"
+INFO:  "pg_aggregate": scanned 1 of 1 pages, containing 121 live rows and 0 dead rows; 121 rows in sample, 121 estimated total rows
+INFO:  vacuuming "public.playlist_track"
+INFO:  "playlist_track": found 0 removable, 5941 nonremovable row versions in 27 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "public.playlist_track"
+INFO:  "playlist_track": scanned 27 of 27 pages, containing 5941 live rows and 0 dead rows; 5941 rows in sample, 5941 estimated total rows
+INFO:  vacuuming "public.playlist"
+INFO:  "playlist": found 0 removable, 17 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "public.playlist"
+INFO:  "playlist": scanned 1 of 1 pages, containing 17 live rows and 0 dead rows; 17 rows in sample, 17 estimated total rows
+INFO:  vacuuming "public.invoice_line"
+INFO:  "invoice_line": found 0 removable, 1107 nonremovable row versions in 9 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "public.invoice_line"
+INFO:  "invoice_line": scanned 9 of 9 pages, containing 1107 live rows and 0 dead rows; 1107 rows in sample, 1107 estimated total rows
+INFO:  vacuuming "information_schema.sql_features"
+INFO:  "sql_features": found 0 removable, 672 nonremovable row versions in 7 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "information_schema.sql_features"
+INFO:  "sql_features": scanned 7 of 7 pages, containing 672 live rows and 0 dead rows; 672 rows in sample, 672 estimated total rows
+INFO:  vacuuming "pg_catalog.pg_collation"
+INFO:  "pg_collation": found 0 removable, 81 nonremovable row versions in 3 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "pg_catalog.pg_collation"
+INFO:  "pg_collation": scanned 3 of 3 pages, containing 81 live rows and 0 dead rows; 81 rows in sample, 81 estimated total rows
+INFO:  vacuuming "information_schema.sql_parts"
+INFO:  "sql_parts": found 0 removable, 9 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "information_schema.sql_parts"
+INFO:  "sql_parts": scanned 1 of 1 pages, containing 9 live rows and 0 dead rows; 9 rows in sample, 9 estimated total rows
+INFO:  vacuuming "public.genre"
+INFO:  "genre": found 0 removable, 25 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "public.genre"
+INFO:  "genre": scanned 1 of 1 pages, containing 25 live rows and 0 dead rows; 25 rows in sample, 25 estimated total rows
+INFO:  vacuuming "public.album"
+INFO:  "album": found 0 removable, 306 nonremovable row versions in 3 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "public.album"
+INFO:  "album": scanned 3 of 3 pages, containing 306 live rows and 0 dead rows; 306 rows in sample, 306 estimated total rows
+INFO:  vacuuming "public.invoice"
+INFO:  "invoice": found 0 removable, 251 nonremovable row versions in 3 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "public.invoice"
+INFO:  "invoice": scanned 3 of 3 pages, containing 251 live rows and 0 dead rows; 251 rows in sample, 251 estimated total rows
+INFO:  vacuuming "public.media_type"
+INFO:  "media_type": found 0 removable, 5 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.04 sec.
+INFO:  analyzing "public.media_type"
+INFO:  "media_type": scanned 1 of 1 pages, containing 5 live rows and 0 dead rows; 5 rows in sample, 5 estimated total rows
+INFO:  vacuuming "public.artist"
+INFO:  "artist": found 0 removable, 244 nonremovable row versions in 2 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.05 sec.
+INFO:  analyzing "public.artist"
+INFO:  "artist": scanned 2 of 2 pages, containing 244 live rows and 0 dead rows; 244 rows in sample, 244 estimated total rows
+INFO:  vacuuming "public.track"
+INFO:  "track": found 0 removable, 2883 nonremovable row versions in 39 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.06 sec.
+INFO:  analyzing "public.track"
+INFO:  "track": scanned 39 of 39 pages, containing 2883 live rows and 0 dead rows; 2883 rows in sample, 2883 estimated total rows
+INFO:  vacuuming "public.customer"
+INFO:  "customer": found 0 removable, 36 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "public.customer"
+INFO:  "customer": scanned 1 of 1 pages, containing 36 live rows and 0 dead rows; 36 rows in sample, 36 estimated total rows
+INFO:  vacuuming "public.employee"
+INFO:  "employee": found 0 removable, 8 nonremovable row versions in 1 pages
+DETAIL:  0 dead row versions cannot be removed yet.
+CPU 0.00s/0.00u sec elapsed 0.03 sec.
+INFO:  analyzing "public.employee"
+INFO:  "employee": scanned 1 of 1 pages, containing 8 live rows and 0 dead rows; 8 rows in sample, 8 estimated total rows
+
+
+Total query runtime: 11969 ms.

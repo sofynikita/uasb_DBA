@@ -1,0 +1,103 @@
+-- *** BACKUPS ***
+
+--Backups en formato plano, se usa la contraseña de postgres
+pg_dump -i -h localhost -p 5433 -U postgres -F p -b -v -f "/home/noel/uasb_DBA-master/bk_musicdb_usergithub.sql" musicdb
+
+--Backups en formato postgres, se usa la contraseña de postgres
+pg_dump -i -h localhost -p 5433 -U postgres -F c -b -v -f "/home/noel/uasb_DBA-master/bk_musicdb_usergithub.backup" musicdb
+
+--Backups con -a y -v
+-- -a Hace un volcado solo de los datos y no del esquema.
+-- -v Especifica el modo detallado. Esto hará que pg_dump de salida detallada de objetos comentarios e iniciar / detener veces 
+--para el archivo de volcado, y el progreso de los mensajes de error estándar.
+
+
+
+-- *** BACKUPS ***
+
+--Backups en formato plano, se usa la contraseña de postgres
+pg_dump -i -h localhost -p 5433 -U postgres -F p -b -v -f "/home/noel/uasb_DBA-master/bk_musicdb_usergithub.sql" musicdb
+
+--Backups en formato postgres, se usa la contraseña de postgres
+pg_dump -i -h localhost -p 5433 -U postgres -F c -b -v -f "/home/noel/uasb_DBA-master/bk_musicdb_usergithub.backup" musicdb
+
+--Backups con -a y -v
+-- -a Hace un volcado solo de los datos y no del esquema.
+-- -v Especifica el modo detallado. Esto hará que pg_dump de salida detallada de objetos comentarios e iniciar / detener veces 
+--para el archivo de volcado, y el progreso de los mensajes de error estándar.
+
+
+-a data-only
+Genera un backup de solamente los datos o la información de las tablas de la base de datos.
+Esta opción sólo tiene sentido para el formato de texto plano. Para los formatos de archivo, puede especificar la opción cuando se llama a pg_restore.
+
+-v verbose
+Genera un backup de toda la estructura (schema) de la base de datos, incluido los datos e información de las tablas de la base de datos.
+Especifica el modo detallado.
+Esto hará que pg_dump de salida detallada de objetos, comentarios e iniciar / detener para el archivo de volcado, y el progreso de los mensajes de error estándar.
+
+
+
+Pregunta 3 de la seccion MANTENIMIENTO
+--------------------------------------
+
+pg_dump con la opcion -a optiene la informacion de la base de datos
+pg_dump con la opcion -v (verbose) optiene toda la estructura de la base de datos
+
+
+Cuando se realiza un backup con -v se genera un backup de toda la base de datos incluyendo creacion de tablas,vistas,usuarios,registros,etc mientras que -a solo de los registros
+
+
+Con la opción -a únicamente se realiza un backup de los datos y no así de la estructura de la base de datos.
+Con la opción -v se puede ver detalladamente a través de comentarios todo el proceso de backup, así mismo los mensajes de progreso y errores ocurridos en el proceso.
+
+
+
+
+Al realizar bakup con la opción -a, sólo hace un backup de los datos y no asi del esquema de la base de datos, en cambio al realizar el backup con la opción -v crea respaldo un archivo detallado de toda la base de datos, incluye los datos y el esquema, muestra comentarios con información de tiempos y errores.
+
+
+
+El comando con la opcion -a solo respalda los datos de cada tabla, 
+El comando con la opcion -v respalda todo el esquema.
+
+El backup con -a solo respalda los datos de cada tabla
+El backup con -v se respalda todo el esquema.
+
+
+
+-- *** GENERACIÓN DE BACKUPS ***
+
+--Backups en formato plano, se usa la contraseña de postgres
+pg_dump -i -h localhost -p 5433 -U postgres -F p -b -v -f "/home/esjap/uasb_DBA/bk_musicdb1_usergithub.sql" musicdb1
+
+--Backups en formato postgres, se usa la contraseña de postgres
+pg_dump -i -h localhost -p 5433 -U postgres -F c -b -v -f "/home/esjap/uasb_DBA/bk_musicdb1_usergithub.backup" musicdb1
+
+--Backups con -a y -v
+- La opción "a", realiza un volcado únicamente de los datos y no así del esquema.
+- La opción "v" Esta hará que pg_dump de salida detallada de objetos comentarios e iniciar / detener veces para el archivo de volcado, y el progreso de los mensajes de error estándar.
+
+
+
+-a data-only
+Genera un backup de solamente los datos o la información de las tablas de la base de datos.
+Esta opción sólo tiene sentido para el formato de texto plano. Para los formatos de archivo, puede especificar la opción cuando se llama a pg_restore.
+
+-v verbose
+Genera un backup de toda la estructura (schema) de la base de datos, incluido los datos e información de las tablas de la base de datos.
+Especifica el modo detallado.
+Esto hará que pg_dump de salida detallada de objetos, comentarios e iniciar / detener para el archivo de volcado, y el progreso de los mensajes de error estándar.
+
+
+El formato del comando pg_dump es:
+pg_dump [opciones] [nombre_base]
+
+-a o –data-only: Hace un volcado solo de los datos y no del esquema.
+ Esta opción correponde a las opciones controlar la salida del contenido
+
+-v ejecutará el comando en modo verbose (así podremos ir viendo la salida de cada paso del proceso).
+
+
+
+

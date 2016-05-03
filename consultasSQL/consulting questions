@@ -1,0 +1,31 @@
+﻿grant SELECT on customer_data TO uasb_user;
+grant SELECT on invoiceline_data TO uasb_user;
+grant SELECT on invoice_data TO uasb_user;
+grant SELECT on employee_data TO uasb_user;
+grant SELECT on playlisttrack_data TO uasb_user;
+grant SELECT on track_data TO uasb_user;
+grant SELECT on album_data TO uasb_user;
+grant SELECT on genre_data TO uasb_user;
+grant SELECT on mediatype_data TO uasb_user;
+grant SELECT on playlist_data TO uasb_user;
+grant SELECT on artist_data TO uasb_user;
+
+grant SELECT, INSERT, UPDATE, DELETE on invoiceline_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on invoice_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on customer_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on employee_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on playlisttrack_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on track_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on album_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on genre_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on mediatype_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on playlist_data TO operator_user;
+grant SELECT, INSERT, UPDATE, DELETE on artist_data TO operator_user;
+
+
+grant SELECT on vista_top5_genero TO test_user;
+grant SELECT on vista_top3clientes_canciones TO test_user;
+grant SELECT on vista_top20track_mediatype TO test_user;
+grant SELECT on vista_ventasmes_vendor TO test_user;
+
+

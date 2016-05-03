@@ -1,0 +1,49 @@
+﻿create view vista_top5_genero
+as
+	select a.* from
+	(
+		select genre_data.name as genre, track_data.name as track, sum(invoiceline_data.quantity) as quantity, (row_number() over (partition by genre_data.name order by sum(invoiceline_data.quantity) desc)) as ranking
+		from track_data inner join genre_data on track_data.genreid=genre_data.gennreid
+		inner join invoiceline_data on track_data.trackid=invoiceline_data.trackid
+		group by genre, track
+		order by genre, quantity desc
+	) as a
+	where a.ranking <= 5;
+
+select * FROM vista_top5_genero;
+
+
+create view vista_top3clientes_canciones
+as
+	select customer_data.firstname, customer_data.lastname, customer_data.city,customer_data.country,customer_data.phone, sum(invoiceline_data.quantity) as quantity
+	from invoiceline_data
+	inner join invoice_data on invoiceline_data.invoiceid=invoice_data.invoiceid
+	inner join customer_data on customer_data.customerid=invoice_data.customerid
+	group by customer_data.firstname,customer_data.lastname, customer_data.city,customer_data.country,customer_data.phone
+	order by sum(invoiceline_data.quantity) desc
+	limit 3;
+
+select * FROM vista_top3clientes_canciones;
+
+
+create view vista_top20track_mediatype
+as
+	select mediatype_data.name as nombre1, track_data.name as nombre2, track_data.milliseconds 
+	from track_data 
+	inner join mediatype_data on mediatype_data.mediatypeid = track_data.mediatypeid
+	group by mediatype_data.name, track_data.name, track_data.milliseconds
+	order by track_data.milliseconds desc 
+	limit 20;
+
+select * FROM vista_top20track_mediatype;
+
+create view vista_ventasmes_vendor
+as
+	select employee_data.employeeid, employee_data.firstname,extract(year from invoice_data.invoicedate) as year,extract(month from invoice_data.invoicedate) as month,sum(invoice_data.total) as total
+	from employee_data 
+	inner join customer_data on employee_data.employeeid=customer_data.supportrepid
+	inner join invoice_data on customer_data.customerid=invoice_data.customerid
+	group by employee_data.employeeid,employee_data.firstname,extract(year from invoice_data.invoicedate),extract(month from invoice_data.invoicedate)
+	order by employee_data.firstname,extract(year from invoice_data.invoicedate),extract(month from invoice_data.invoicedate);
+
+select * FROM vista_ventasmes_vendor;
